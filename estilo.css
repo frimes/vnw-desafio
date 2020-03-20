@@ -1,0 +1,18 @@
+#logo-topo {
+    width: 30%;
+}
+
+#bolota-aleatoria-com-img-cinza {
+    border-radius: 100%;
+    width: 20%;
+}
+
+#bolota-aleatoria-com-img-cinza {
+    position: absolute;
+    width: 246px;
+    height: 246px;
+    left: 24px;
+    top: 1074px;
+
+    background: #C4C4C4;
+}
