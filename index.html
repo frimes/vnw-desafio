@@ -4,41 +4,17 @@
         <meta charset="utf-8">
         <title>Amigão</title>
         <link rel="stylesheet" href="estilo.css">
+<!--
+        <link rel="stylesheet" href="css/gallery.theme.css">
+        <link rel="stylesheet" href="css/gallery.min.css">
+-->
     </head>
     <body>
             <header>
                 <figure>
-                <!-- #PESQUISEI -->
-                    <img src="imagens/logo.png" alt="logotipo do Amigão" id="logo-topo">   
+                    <img src="imagens/logo-removebg-preview.png" alt="logotipo do Amigão" id="logo-topo">   
                 </figure>
-                <nav>
-                    <ul>
-                        <li>Home</li>
-                        <li>Sobre</li>
-                        <li>Adote</li>
-                        <li>Seja Voluntário</li>
-                    </ul>
-                </nav>
-                <p>amigao@email.com</p>
-            </header>
-            <main>
-                <h1>Adote um amigo!</h1>
-                <!-- #CONSULTEI -->
-                <button type="submit">Fazer doação</button>
-                <button type="submit">Adotar um cachorrinho</button>
-                <p>
-                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-                </p>
-                <p>
-                If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.                 
-                </p>
-                <button type="submit">Seja voluntário</button>
-                <img src="imagens/branco.png" id="bolota-aleatoria-com-img-branco">
-                <img src="imagens/cinza.png" id="bolota-aleatoria-com-img-cinza">
-
-            </main>
-            <footer>
-                <nav>
+                <nav id="nav-header">
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="sobre.html">Sobre</a></li>
@@ -46,6 +22,102 @@
                         <li><a href="sejavoluntario">Seja Voluntário</a></li>
                     </ul>
                 </nav>
+                <p id="barra-header">amigao@email.com</p>
+            </header>
+            <main>
+                <section id="sec-1">
+                    <h1>Adote um amigo!</h1>
+                    <button type="submit">Fazer doação</button>
+                    <button type="submit">Adotar um cachorrinho</button>
+                    <p>
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                    </p>
+                    <p>
+                    If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.                 
+                    </p>
+                </section>
+                <section id="sec-2">
+                    <button type="submit">Seja voluntário</button>
+                    <img src="imagens/pata.png" id="bolota-com-pata">
+                </section>
+                <br>
+                <section id="sec-3">
+                        <h2>Adote</h2>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                        
+                        <figure class="item" id="item-figure">
+                            <h1><img src="imagens/img-1.png">                        
+                            </h1>
+                            <figcaption>Duque - 2 anos  <button type="submit" id="bt-me-leva">>> me leva!</button></figcaption>
+                        </figure>
+                    
+
+                        <figure class="item" id="item-figure">
+                                <h1><img src="imagens/img-2.png"></h1>
+                                <figcaption>Pérola - 1 ano e 4 meses  <button type="submit" id="bt-me-leva">>>me leva!</button></figcaption>
+                        </figure>
+
+                        <figure class="item" id="item-figure">
+                            <h1><img src="imagens/img-3.png"></h1>
+                            <figcaption>Thor - 3 meses  <button type="submit" id="bt-me-leva">>>me leva!</button></figcaption>
+                        </figure>
+
+                        <!--
+                        <div class="gallery autoplay items-3">
+
+                            <div id="item-1" class="control-operator"></div>
+                            <div id="item-2" class="control-operator"></div>
+                            <div id="item-3" class="control-operator"></div>
+                            
+                                <figure class="item" id="item-figure">
+                                    <h1><img src="imagens/img-1.png"></h1>
+                                    <figcaption>Duque</figcaption>
+                                </figure>
+                            
+                                <figure class="item" id="item-figure">
+                                        <h1><img src="imagens/img-2.png"></h1>
+                                        <figcaption>Pérola</figcaption>
+                                </figure>
+
+                                <figure class="item" id="item-figure">
+                                    <h1><img src="imagens/img-3.png"></h1>
+                                    <figcaption>Thor</figcaption>
+                                </figure>
+
+                            <div class="controls">
+                                <a href="#item-1" class="control-button">.</a>
+                                <a href="#item-2" class="control-button">.</a>
+                                <a href="#item-3" class="control-button">.</a>
+                            </div>
+            
+                        </div>
+                        -->
+
+                    </section>
+            </main>
+            <br>
+
+            <br>
+            <footer>
+                <fieldset id="fake-fieldset">
+                        <figure>
+                            <img src="imagens/dog-footer.png" id="dog-footer">
+                        </figure>
+                        <nav id="nav-footer">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="sobre.html">Sobre</a></li>
+                                <li><a href="adote.html">Adote</a></li>
+                                <li><a href="sejavoluntario">Seja Voluntário</a></li>
+                            </ul>
+                        </nav>
+                    <p id="barra-footer-1">
+                        <a href="https://fb.com" target="_blank"> |    facebook    </a>
+                        <a href="https://instagram.com" target="_blank"> |    instagram    </a>
+                        <a href="https://medium.com" target="_blank"> |    medium    </a> 
+                    </p>
+                    <p id="barra-footer-2">Rua Rodrigues Alves, nº 5 - Rio de Janeiro - RJ</p>
+                </fieldset>
             </footer>
     </body>
 </html>
